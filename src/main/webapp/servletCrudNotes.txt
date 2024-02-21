@@ -1,0 +1,14 @@
+for servlet to database
+
+    in servlet there are three main methods
+          
+          1.init() -->
+                     *this method is used to connected database or more like operation that need to happen only once when application is started
+             
+          2.service --> doPost() and doGet()
+                      -->this method use get and post methods
+                       -->it can run any number of time as client sent request
+         
+          3.destroy() -->
+                       *run only once at end of application
+                       *used to close connection,statment, or thing need to done at end of application
